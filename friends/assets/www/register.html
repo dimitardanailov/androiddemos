@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
+        
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css" />
+        <link rel="stylesheet" href="style/friends.css" />
+        
+        <script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
+        
+        <script src="javascript/phonegap-1.4.1.js"></script>
+        
+        <script type="text/javascript" src="javascript/2.5.3-crypto-sha1.js"></script>
+        
+        <script src="javascript/config.js"></script>
+        <script src="javascript/friends.js"></script>
+    </head>
+    <body class="ui-mobile-viewport" onload="destroySession();">
+        <div data-role="page">
+            <!-- Header -->
+            <div data-role="header">
+                <h1>
+                    Register
+                </h1>
+            </div>
+            <!-- END Header -->
+            
+            <!-- Content -->
+            <div data-role="content">
+                <h1 class="centerText">
+                    Create a new user 
+                </h1>
+                
+                <form method="post" action="http://mobilefriends.apphb.com/MobileFriendsService.svc/register"
+                      id="registerForm" onsubmit="return registerForm($(this));">
+                    
+                    <div data-role="fieldcontain">
+                        <label for="username">Username : </label>
+                        <input type="text" name="username" id="username" value="" 
+                               placeholder="Required *" required="true" autocomplete="off"/>
+                        
+                        <div class="error-container error-container-a box-corners-normal centerText displayNone"></div>
+                    </div>
+                    
+                    <div data-role="fieldcontain">
+                        <label for="password" class="ui-input-text">Password : </label>
+                        <input type="password" name="password" id="password" value="" 
+                               placeholder="Required *" required="true"/>
+                        <div class="error-container error-container-a box-corners-normal centerText displayNone"></div>
+                    </div>
+                    
+                    <fieldset>
+                        <button type="submit" data-theme="b" name="createUser">Register</button>
+                    </fieldset>
+                    
+                    <div class="error-container error-container-a box-corners-normal centerText displayNone ajaxCallBack"></div>
+                </form>
+            </div>
+            <!-- END Content -->
+        </div>
+    </body>
+</html>

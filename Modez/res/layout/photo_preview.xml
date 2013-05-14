@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Modez" >
+
+     <RelativeLayout 
+        android:id="@+id/topheader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true"
+		android:paddingTop="5dp"
+		android:paddingBottom="5dp"
+		android:background="#fffe27">
+       	
+        <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"
+			android:textSize="30sp"
+	        android:text="@string/previewPhoto" />
+    </RelativeLayout>
+    
+    <ImageView 
+        android:id="@+id/imagePreviewContainer"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"
+        android:src="@drawable/preview_image"
+        android:contentDescription="@string/app_name"/>
+    
+    <LinearLayout 
+	    android:id="@+id/previewfooter"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentLeft="true"
+	    android:background="#101010" >
+		
+        <Button
+	        android:id="@+id/previewdeleteButton"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="1"
+	        android:background="@android:color/transparent"
+	        android:drawableTop="@drawable/delete_button"/>
+	
+        <Button
+	        android:id="@+id/previewAddTag"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="2"
+	        android:background="@android:color/transparent"
+	        android:drawableTop="@drawable/menu_button"/>
+        
+		<Button
+	        android:id="@+id/previewconfirm"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="1"
+	        android:background="@android:color/transparent"
+	        android:drawableTop="@drawable/confirm_button"/>
+        
+    </LinearLayout>    
+     
+</RelativeLayout>

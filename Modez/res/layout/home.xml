@@ -1,0 +1,139 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Modez" >
+
+    
+    <RelativeLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/feature_image">
+
+        <Button
+            android:id="@+id/homeCameraButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="124dp"
+            android:drawableTop="@drawable/camera" 
+            android:background="@android:color/transparent"/>
+        
+    </RelativeLayout>
+    
+    <RelativeLayout 
+        android:id="@+id/cameraLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true">
+        
+    </RelativeLayout>
+    
+
+    <RelativeLayout 
+        android:id="@+id/topheader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true"
+		android:paddingTop="5dp"
+		android:paddingBottom="5dp"
+		android:alpha="0.85"
+		android:background="#fffe27">
+       	
+        <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"
+			android:textSize="30sp"
+	        android:text="@string/app_name" />
+        
+    </RelativeLayout>
+    
+    <RelativeLayout 
+        android:id="@+id/homeFooter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true">
+        
+        <RelativeLayout 
+            android:id="@+id/homelabelThemeOfWeek"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            
+            <TextView 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:textColor="#fff"
+                android:text="@string/themeOfWeekCapitalize"
+                android:textSize="14sp"/>
+            
+        </RelativeLayout>
+        
+        <RelativeLayout 
+            android:layout_below="@+id/homelabelThemeOfWeek"
+            android:id="@+id/wrapperTeamOfWeek"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_marginTop="4dp"
+            android:alpha="0.85"
+            android:background="#000">
+            
+            <TextView 
+                android:id="@+id/firstTitleThemeOfWeek"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:textColor="#fff"
+                android:text="@string/themeOfWeekFirstTitle"
+                android:textSize="22sp"/>
+            
+            <TextView 
+                android:layout_below="@+id/firstTitleThemeOfWeek"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:textColor="#fff"
+                android:text="@string/themeOfWeekSecondTitle"
+                android:textSize="22sp"/>
+            
+        </RelativeLayout>
+        
+        <RelativeLayout 
+            android:layout_below="@+id/wrapperTeamOfWeek"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+			android:background="#ffff00">
+	        <Button 
+	            android:id="@+id/homeBasketButton"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentRight="true"
+			    android:layout_alignParentTop="true"
+			    android:layout_centerHorizontal="true"
+	        	android:layout_centerVertical="true"
+	        	android:layout_centerInParent="true"
+	        	android:layout_marginLeft="40dp"
+			    android:layout_toRightOf="@+id/homeRateButton"
+			    android:background="@android:color/transparent"
+	            android:drawableTop="@drawable/shop"/>
+	
+	        <Button
+	            android:id="@+id/homeRateButton"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentLeft="true"
+	            android:layout_alignParentTop="true"
+	            android:layout_marginLeft="30dp"
+	            android:background="@android:color/transparent"
+	            android:drawableTop="@drawable/rate" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

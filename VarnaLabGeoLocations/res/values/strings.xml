@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+
+    <string name="app_name">VarnaLabGeoLocations</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+	<string name="GPSAlertDialogTitle">GPS is setting</string>
+    <string name="GPSAlertDialogMessage">GPS is not enabled. Do you want to go to setting menu</string>
+    
+	<string name="settings">Settings</string>
+    <string name="cancel">Cancel</string>
+    
+    <string name="latitude">Latitude : </string>
+    <string name="longitude">Longitude : </string>
+    
+    <string name="country">Country : </string>
+    <string name="city">City : </string>
+    <string name="postalCode">Postal Code : </string>
+    <string name="addressLine">Address Line : </string>
+    
+</resources>

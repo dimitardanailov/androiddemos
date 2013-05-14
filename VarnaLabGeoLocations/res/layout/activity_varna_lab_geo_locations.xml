@@ -1,0 +1,122 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".VarnaLabGeoLocations" >
+    
+    <!-- Latitude -->
+    <TextView
+        android:id="@+id/labelLatitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:text="@string/latitude" />
+
+    <TextView
+        android:id="@+id/fieldLatitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/labelLatitude" />
+    
+    <!-- Latitude -->
+    
+    <!-- Longititude -->
+    <TextView
+        android:id="@+id/labelLongitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/fieldLatitude"
+        android:text="@string/longitude" />
+
+    <TextView
+        android:id="@+id/fieldLongitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/fieldLatitude"
+        android:layout_toRightOf="@+id/labelLongitude"/>
+    <!-- Longititude -->
+    
+    <!-- Country -->
+    <TextView
+        android:id="@+id/labelCountry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/fieldLongitude"
+        android:text="@string/country" />
+
+    <TextView
+        android:id="@+id/fieldCountry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/fieldLongitude"
+        android:layout_toRightOf="@+id/labelCountry"/>
+    <!-- Country -->
+    
+    <!-- City -->
+    <TextView
+        android:id="@+id/labelCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/fieldCountry"
+        android:text="@string/city" />
+
+    <TextView
+        android:id="@+id/fieldCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/fieldCountry"
+        android:layout_toRightOf="@+id/labelCity"/>
+    <!-- City -->
+    
+    <!-- Postal code -->
+    <TextView
+        android:id="@+id/labelPostalCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/fieldCity"
+        android:text="@string/postalCode" />
+
+    <TextView
+        android:id="@+id/fieldPostalCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/fieldCity"
+        android:layout_toRightOf="@+id/labelPostalCode"/>
+    <!-- Postal code -->
+    
+    <!-- Address Line -->
+    <TextView
+        android:id="@+id/labelAddressLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/fieldPostalCode"
+        android:text="@string/addressLine" />
+
+    <TextView
+        android:id="@+id/fieldAddressLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/fieldPostalCode"
+        android:layout_toRightOf="@+id/labelAddressLine"/>
+    <!-- Address Line -->
+
+</RelativeLayout>

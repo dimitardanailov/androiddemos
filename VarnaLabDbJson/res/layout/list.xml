@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <!-- Name Label -->
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dp"
+        android:paddingBottom="2dp"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <!-- Name label -->
+
+	<!-- Created At -->
+	<TextView 
+	    android:id="@+id/labelCreatedAt"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:paddingTop="6dp"
+	    android:paddingBottom="2dp"
+	    android:layout_below="@+id/name"
+	    android:text="@string/createdAt"/>
+	
+	<TextView
+        android:id="@+id/createdAt"
+        android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:paddingTop="6dp"
+	    android:paddingBottom="2dp"
+	    android:layout_below="@+id/name"
+	    android:layout_toRightOf="@+id/labelCreatedAt"/>
+	<!-- Created At -->
+	
+	<!-- Views -->
+	<TextView 
+	    android:id="@+id/labelViews"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:paddingTop="6dp"
+	    android:paddingBottom="2dp"
+	    android:layout_below="@+id/labelCreatedAt"
+	    android:text="@string/views"/>
+	
+	<TextView
+        android:id="@+id/views"
+        android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:paddingTop="6dp"
+	    android:paddingBottom="2dp"
+	    android:layout_below="@+id/labelCreatedAt"
+	    android:layout_toRightOf="@+id/labelViews"/>
+	<!-- Views -->
+	
+	<!-- Description -->
+	<TextView 
+	    android:id="@+id/labelDescription"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:paddingTop="6dp"
+	    android:paddingBottom="2dp"
+	    android:layout_below="@+id/labelViews"
+	    android:text="@string/description"
+	    android:visibility="gone"/>
+	
+	<TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:paddingTop="6dp"
+	    android:paddingBottom="2dp"
+	    android:layout_below="@+id/labelViews"
+	    android:layout_toRightOf="@+id/labelDescription"
+	    android:visibility="gone"/>
+	<!-- Description -->
+</RelativeLayout>

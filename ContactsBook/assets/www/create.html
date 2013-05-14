@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Phone book App</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css" />
+        <link rel="stylesheet" href="style.css" />
+        
+        <script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
+
+		<script src="phonegap-1.4.1.js"></script>        
+        
+        <script src="script.js"></script>
+        
+    </head>
+    <body class="ui-mobile-viewport">
+        <div data-role="page">
+            
+            <!-- Header -->
+            <div data-role="header">
+                <h1>
+                    Phone book
+                </h1>
+                
+                <a href="index.html" data-icon="home" data-iconpos="notext" 
+                   title="Home" data-theme="f">
+                    <span class="ui-btn-inner ui-btn-corner-all" aria-hidden="true">
+                        <span class="ui-btn-text">Home</span>
+                        <span class="ui-icon ui-icon-home ui-icon-shadow"></span>
+                    </span>
+                </a>
+                
+                <a href="create.html" data-icon="add" data-iconpos="notext" 
+                   title="Add" data-theme="f">
+                    <span class="ui-btn-inner ui-btn-corner-all" aria-hidden="true">
+                        <span class="ui-btn-text">add</span>
+                        <span class="ui-icon ui-icon-home ui-icon-shadow"></span>
+                    </span>
+                </a>
+            </div>
+            <!-- Header -->
+            
+            <!-- Content -->
+            <div data-role="content">
+                
+                <h1>
+                    Create a new contact 
+                </h1>
+                
+                <form onsubmit="return createContact($(this));" method="post">
+                    
+                    <div data-role="fieldcontain">
+                        <label for="display_name">Display Name:</label>
+                        <input type="text" name="user[display_name]" id="display_name" value="" placeholder=""/>
+                    </div>
+                    
+                    <div data-role="fieldcontain">
+                        <label for="given_name">First Name:</label>
+                        <input type="text" name="user[name][given_name]" id="given_name" value="" placeholder=""/>
+                    </div>
+                    
+                    <div data-role="fieldcontain">
+                        <label for="family_name">Family Name:</label>
+                        <input type="text" name="user[name][family_name]" id="family_name" value="" placeholder=""/>
+                    </div>
+                    
+					<div data-role="fieldcontain">
+                        <label for="nick_name">Nick Name:</label>
+                        <input type="text" name="user[nick_name]" id="nick_name" value="" placeholder=""/>
+                    </div>
+                    
+                    <div class="phoneNumbers">
+	                    <fieldset data-role="controlgroup">
+	                        <legend>Phone type : </legend>
+	                        <input type="radio" name="user[phone][type][]" id="phone-type-1" value="home" checked="checked"/>
+	                        <label for="phone-type-1">Home</label>
+	
+	                        <input type="radio" name="user[phone][type][]" id="phone-type-2" value="mobile"  />
+	                        <label for="phone-type-2">Mobile</label>
+	
+	                        <input type="radio" name="user[phone][type][]" id="phone-type-3" value="work"  />
+	                        <label for="phone-type-3">Work</label>
+	
+	                        <input type="radio" name="user[phone][type][]" id="phone-type-4" value="office"  />
+	                        <label for="phone-type-4">Office</label>
+	                    </fieldset>
+	                    
+	                    <div data-role="fieldcontain">
+	                        <label for="phone_number">Phone number :</label>
+	                        <input type="text" name="user[phone][number][]" id="phone_number" value="" placeholder=""/>
+	                    </div>
+	                    
+	                    <fieldset data-role="controlgroup">
+	                        <legend>Preferred number : </legend>
+	                        <input type="radio" name="user[phone][preferred_number][]" id="phone-preferred-number-1" value="true"/>
+	                        <label for="phone-preferred-number-1">True</label>
+	
+	                        <input type="radio" name="user[phone][preferred_number][]" id="phone-preferred-number-2" value="false" checked="checked"/>
+	                        <label for="phone-preferred-number-2">False</label>
+	                    </fieldset>
+                    </div>
+                    
+                    <fieldset>
+                        <button type="submit" data-theme="b" name="createUser">Create</button>
+                    </fieldset>    
+                </form>
+            </div>
+            <!-- END Content -->
+        </div>
+    </body>
+</html>

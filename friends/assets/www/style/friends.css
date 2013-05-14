@@ -1,0 +1,282 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+img
+{
+    border: none;
+}
+.flexibleImages
+{
+    width: 100%;
+}
+body
+{
+    background: none repeat scroll 0 0 #ffffff;
+    font-family: Verdana, Geneva, sans-serif;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    letter-spacing: normal;
+    direction:ltr;
+}
+/**** Floats ****/
+.floatLeft,
+.wrapper-grid-a .wrapper-block-a,
+.wrapper-grid-b .wrapper-block-a, 
+.wrapper-grid-b .wrapper-block-b,
+.wrapper-grid-b .wrapper-block-c,
+.wrapper-grid-c .wrapper-block-a
+{
+    float: left;
+}
+.floatRight,
+.wrapper-grid-a .wrapper-block-b,
+.wrapper-grid-c .wrapper-block-b
+{
+    float: right;
+}
+.clear
+{
+    clear: both;
+}
+.containerWithClear:after,
+.wrapper-grid-a:after,
+.wrapper-grid-b:after,
+.wrapper-grid-c:after
+{
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+}
+/*** Clear - IE Fix ***/
+.containerWithClear,
+.wrapper-grid-a,
+.wrapper-grid-b,
+.wrapper-grid-c
+{
+    display: inline-block;
+    display: block;
+    zoom:1;
+}
+/*** Clear - IE Fix ***/
+/**** END Floats ****/
+/**** Display *******/
+.displayNone
+{
+    display: none;
+}
+.icons
+{
+    display: inline-block;
+}
+/**** END Display *****/
+
+/********************* Text *********************/
+.leftText
+{
+    text-align: left;
+}
+.centerText
+{
+    text-align: center;
+}
+.rightText
+{
+    text-align: right;
+}
+.decorationNone
+{
+    text-decoration: none;
+}
+.underline
+{
+    text-decoration: underline;
+}
+.justify
+{
+    text-align: justify;
+}
+.bold
+{
+    font-weight: bold;
+}
+.lowercase
+{
+    text-transform: lowercase;
+}
+.uppercase
+{
+    text-transform: uppercase;
+}
+.hoverUnderline:hover
+{
+    text-decoration: underline;
+}
+.text-ellipsis
+{
+    -webkit-text-overflow: ellipsis;
+     -khtml-text-overflow: ellipsis;
+      -icab-text-overflow: ellipsis;
+       -moz-text-overflow: ellipsis;
+         -o-text-overflow: ellipsis;
+            text-overflow: ellipsis;
+}
+.outline-none
+{
+    outline: none;
+}
+
+.text-overflow
+{
+    overflow: hidden;
+    white-space: nowrap;    
+    
+    -webkit-text-overflow: ellipsis;
+     -khtml-text-overflow: ellipsis;
+      -icab-text-overflow: ellipsis;
+       -moz-text-overflow: ellipsis;
+         -o-text-overflow: ellipsis;
+            text-overflow: ellipsis;
+}
+.button-inherit
+{
+    color: inherit;
+}
+/********************* Text *********************/
+
+/********************* Width *********************/
+.dialog
+{
+    width: 100%;
+    min-height: 100%;
+    
+    left: 0;
+    top: 0;
+    
+    position: absolute;
+    
+    z-index: 9999;
+}
+.fillParent
+{
+    width: 100%;
+}
+/***************** Layouts Dimensions **********/
+/*********** grid-a ***********/
+.wrapper-grid-a .wrapper-block-a, 
+.wrapper-grid-a .wrapper-block-b 
+{
+    width: 50%;
+}
+/*********** grid-b ***********/
+.wrapper-grid-b .wrapper-block-a, 
+.wrapper-grid-b .wrapper-block-c
+{
+    width: 25%;
+}
+.wrapper-grid-b .wrapper-block-b
+{
+    width: 40%;
+    margin: 0% 5%;
+}
+/*********** grid-c ***********/
+.wrapper-grid-c .wrapper-block-a,
+.wrapper-grid-c .wrapper-block-b
+{   
+    width: 45%;
+}
+/***************** END Layouts Dimensions *********/
+
+/********************* Width *********************/
+
+/********************* Cursor *********************/
+.cursorPointer,
+.box-button
+{
+    cursor: pointer;
+}
+/********************* Cursor *********************/
+.colorRed
+{
+    color: red;
+}
+.colorSuccess
+{
+    color: #009900;
+}
+.colorError
+{
+    color: #980905;
+}
+
+/********************* Outline *********************/
+textarea,
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="text"],
+input[type="url"]
+{
+    outline: none;
+}
+
+/********************* Triangle *********************/
+.arrow
+{
+    width: 0;
+    height: 0;
+}
+.middleArrow
+{
+    margin: 0 auto;
+}
+/********************* Triangle *********************/
+
+/********************* Box Corners *********************/
+.box-corners-normal
+{
+    -webkit-border-radius: 1em;
+     -khtml-border-radius: 1em;
+       -moz-border-radius: 1em;
+        -ms-border-radius: 1em;
+         -o-border-radius: 1em;
+            border-radius: 1em;
+}
+/********************* Box Corners *********************/
+
+.error-container,
+.success-container
+{
+    padding: 10px;
+    width: 98%;
+    margin: 5px auto 5px auto;
+}
+.loading
+{
+    margin: 15px auto 15px auto;
+}
+.error-container-a
+{
+    color: #980905;
+    font-weight: bold;
+    border: 1px solid #000000;
+    
+    background: #ffffff;
+}
+.success-container
+{
+    color: #009900;
+    font-weight: bold;
+    border: 1px solid #000000;
+    
+    background: #ffffff;
+}
+.list-my-friends
+{
+    margin: 15px auto 15px auto;
+}
+

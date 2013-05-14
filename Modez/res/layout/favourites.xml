@@ -1,0 +1,124 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".Modez" >
+
+    <ScrollView 
+        android:id="@+id/parentScrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        
+        <LinearLayout 
+            android:id="@+id/body"
+	        android:orientation="vertical"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content">
+	        
+            <ImageView 
+	        	android:layout_height="wrap_content"
+	        	android:layout_width="wrap_content"
+	        	android:src="@drawable/preview_image"
+	        	android:contentDescription="@string/app_name"/>
+        
+        	<ImageView 
+	        	android:layout_height="wrap_content"
+	        	android:layout_width="wrap_content"
+	        	android:src="@drawable/preview_image_2"
+	        	android:contentDescription="@string/app_name"/>
+            
+            <ImageView 
+	        	android:layout_height="wrap_content"
+	        	android:layout_width="wrap_content"
+	        	android:src="@drawable/preview_image"
+	        	android:contentDescription="@string/app_name"/>
+            
+            <ImageView 
+	        	android:layout_height="wrap_content"
+	        	android:layout_width="wrap_content"
+	        	android:src="@drawable/preview_image_2"
+	        	android:contentDescription="@string/app_name"/>
+            
+            <ImageView 
+	        	android:layout_height="wrap_content"
+	        	android:layout_width="wrap_content"
+	        	android:src="@drawable/preview_image"
+	        	android:contentDescription="@string/app_name"/>
+        </LinearLayout>
+                
+    </ScrollView>
+    
+    <RelativeLayout 
+        android:id="@+id/favouritesHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true"
+		android:background="#ffff00">
+       	
+        <Button 
+            android:id="@+id/favouritesTopButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+	        android:drawableTop="@drawable/top_button"/>
+
+        <Button
+            android:id="@+id/favouritesReccentButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/recent_button" />
+
+        <Button
+            android:id="@+id/favouritesFilterButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="28dp"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/filter_button" />
+        
+    </RelativeLayout>
+    
+    
+    <LinearLayout 
+	    android:id="@+id/favouritesfooter"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentLeft="true"
+	    android:background="#101010" >
+		
+        <Button
+	        android:id="@+id/favouritesCameraButton"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="1"
+	        android:background="@android:color/transparent"
+	        android:drawableTop="@drawable/camera_button"/>
+	
+        <Button
+	        android:id="@+id/homepageButton"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="1"
+	        android:background="@android:color/transparent"
+	        android:drawableTop="@drawable/buttonlogo"/>
+        
+		<Button
+	        android:id="@+id/favouritesbasket"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="1"
+	        android:background="@android:color/transparent"
+	        android:drawableTop="@drawable/cartbutton"/>
+        
+    </LinearLayout>    
+    
+</RelativeLayout>

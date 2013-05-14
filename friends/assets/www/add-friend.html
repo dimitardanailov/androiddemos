@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Add friend</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
+        
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css" />
+        <link rel="stylesheet" href="style/friends.css" />
+        
+        <script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
+        
+        <script src="javascript/phonegap-1.4.1.js"></script>
+        
+        <script type="text/javascript" src="javascript/2.5.3-crypto-sha1.js"></script>
+        
+        <script src="javascript/config.js"></script>
+        <script src="javascript/friends.js"></script>
+        
+    </head>
+    <body class="ui-mobile-viewport">
+        
+        <!-- Page -->
+        <div data-role="page">
+            
+            <script type="text/javascript">
+                window.onload = function()
+                {
+                    checkSession();
+                };
+            </script>
+            
+            <!-- Header -->
+            <div data-role="header">
+                <h1>
+                    Add friend
+                </h1>
+                
+                <a href="index.html" onclick="return appendSessionDetailsToUrl($(this));" data-role="button">Home</a>
+
+                <a href="javascript:void(0);" onclick="return logout();" data-role="button">Logout</a>
+            </div>
+            <!-- END Header -->
+            
+            <!-- Content -->
+            <div data-role="content">
+                <h1 class="centerText">
+                    Add a new friend 
+                </h1>
+                
+                <form method="post" action="http://mobilefriends.apphb.com/MobileFriendsService.svc/add-friend"
+                      onsubmit="return addFriendForm($(this), 'add');">
+                    
+                    <div data-role="fieldcontain">
+                        <label for="friend-add">Friend name : </label>
+                        <input type="text" name="friend" id="friend-add" value="" 
+                               placeholder="Please write a name of your friend" required="true" autocomplete="off"/>
+                        
+                        <div class="error-container error-container-a box-corners-normal centerText displayNone"></div>
+                    </div>
+                    
+                    <div class="wrapper-grid-c">
+                        <div class="wrapper-block-a">
+                            <fieldset>
+                                <button type="submit" data-theme="b" name="addFriend">Add</button>
+                            </fieldset>
+                        </div>
+                        
+                        <div class="wrapper-block-b">
+                            <a href="javascript:void(0);" title="Get my friends" data-role="button" data-theme="b"
+                               class="buttonMyFriends"
+                               onclick="return getFriends('#list-my-friends-add');">Get my friends</a>
+                        </div>
+                    </div>
+                                        
+                    <div class="error-container error-container-a box-corners-normal centerText displayNone ajaxCallBack"></div>
+                    <div class="success-container box-corners-normal centerText displayNone">Successful added a new friend</div>
+                </form>
+                
+                <div id="list-my-friends-add" class="list-my-friends"></div>
+            </div>
+            <!-- Content -->
+        </div>
+        
+        <!-- Page -->
+    </body>
+</html>

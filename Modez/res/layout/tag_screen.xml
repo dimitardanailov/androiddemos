@@ -1,0 +1,153 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Modez" >
+
+     <LinearLayout 
+        android:id="@+id/topheader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true"
+		android:paddingTop="5dp"
+		android:paddingBottom="5dp"
+		android:background="#fffe27">
+       	
+        <ImageView 
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:background="#fffe27"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/menu_button"/> 
+    </LinearLayout>
+     
+    <RelativeLayout 
+        android:layout_below="@+id/topheader"
+        android:id="@+id/addTag"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+
+		<EditText
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:layout_alignParentTop="true"
+		    android:layout_toRightOf="@+id/addButton"
+		    android:layout_marginLeft="14dp"
+		    android:ems="10"
+		    android:hint="@string/tagAddPlaceholder"
+		    android:textColor="#000" >
+
+		</EditText>
+
+		<Button
+		    android:id="@+id/addButton"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_alignParentTop="true"
+		    android:layout_marginLeft="14dp"
+		    android:layout_marginTop="15dp"
+		    android:background="@android:color/transparent"
+		    android:drawableTop="@drawable/plus" />
+        
+    </RelativeLayout>    
+    
+    <RelativeLayout 
+        android:layout_below="@+id/addTag"
+        android:id="@+id/firstColumn"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:layout_alignParentTop="true"
+		    android:layout_toRightOf="@+id/checkedFirst"
+		    android:layout_marginLeft="14dp"
+		    android:ems="10"
+		    android:text="@string/tagOne"
+		    android:textColor="#000" >
+
+		</TextView>
+
+		<Button
+		    android:id="@+id/checkedFirst"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_alignParentTop="true"
+		    android:layout_marginLeft="14dp"
+		    android:layout_marginTop="4dp"
+		    android:background="@android:color/transparent"
+		    android:drawableTop="@drawable/check" />
+        
+    </RelativeLayout>   
+    
+    <RelativeLayout 
+        android:layout_below="@+id/firstColumn"
+        android:id="@+id/secondColumn"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:layout_alignParentTop="true"
+		    android:layout_toRightOf="@+id/checkedSecond"
+		    android:layout_marginLeft="14dp"
+		    android:ems="10"
+		    android:text="@string/tagSecond"
+		    android:textColor="#000" >
+
+		</TextView>
+
+		<Button
+		    android:id="@+id/checkedSecond"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_alignParentTop="true"
+		    android:layout_marginLeft="14dp"
+		    android:layout_marginTop="4dp"
+		    android:background="@android:color/transparent"
+		    android:drawableTop="@drawable/check" />
+        
+    </RelativeLayout> 
+    
+    <RelativeLayout 
+        android:layout_below="@+id/secondColumn"
+        android:id="@+id/thirdColumn"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:layout_alignParentTop="true"
+		    android:layout_toRightOf="@+id/checkedThird"
+		    android:layout_marginLeft="14dp"
+		    android:ems="10"
+		    android:text="@string/tagThird"
+		    android:textColor="#000" >
+
+		</TextView>
+
+		<Button
+		    android:id="@+id/checkedThird"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_alignParentTop="true"
+		    android:layout_marginLeft="14dp"
+		    android:layout_marginTop="4dp"
+		    android:background="@android:color/transparent"
+		    android:drawableTop="@drawable/check" />
+        
+    </RelativeLayout> 
+     
+</RelativeLayout>
