@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".VarnaLabDecemberDemoMainActivity" >
+
+    <TextView
+        android:layout_alignParentLeft="true"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+    
+    <Button 
+        android:layout_marginBottom="10dp"
+        android:id="@+id/center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/greenButton"
+        android:layout_centerHorizontal="true"
+        android:text="@string/simpleButton"/>
+    
+    <TextView
+        android:layout_alignParentRight="true"
+        android:id="@+id/textSecond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+    
+    <Button 
+        android:layout_below="@id/center"
+        android:id="@+id/simpleButtonOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/greenButton"
+        android:text="@string/simpleButton"/>
+    
+    <Button 
+        android:layout_below="@+id/simpleButtonOne"
+        android:id="@+id/simpleButtonTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        style="@style/greenButton"
+        android:text="@string/simpleButton"/>
+    
+    <RelativeLayout 
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/simpleButtonTwo"
+        android:id="@+id/buttonContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <Button 
+            android:id="@+id/leftButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            style="@style/greenButton"/>
+        
+        <Button 
+            android:layout_toRightOf="@id/leftButton"
+            android:id="@+id/rightButton"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save"
+            style="@style/greenButton"/>
+    </RelativeLayout>
+    
+    <LinearLayout 
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/buttonContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        
+        <Button 
+            android:layout_marginRight="5dp"
+            android:id="@+id/leftLinearButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/cancel"
+            android:drawableTop="@drawable/ic_launcher"/>
+
+        <Button 
+            android:layout_marginRight="5dp"
+            android:id="@+id/centerLinearButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/cancel"
+            android:drawableTop="@drawable/ic_launcher"/>
+        
+        <Button 
+            android:id="@+id/rightLinearButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/save"
+            android:drawableBottom="@drawable/ic_launcher"/>
+        
+    </LinearLayout>
+    
+    <Button
+        android:layout_centerHorizontal="true"        
+        android:text="Goodbye"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#000"
+        android:textColor="#fff"
+        android:layout_alignParentBottom="true"/>
+    
+</RelativeLayout>
