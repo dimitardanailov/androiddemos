@@ -9,3 +9,8 @@ Video : http://www.youtube.com/watch?v=Xb2thC2WjYY&list=HL1368535327&feature=mh_
 
 December 2013 
 Part 2 : http://www.youtube.com/watch?v=Vx4Vq-M1Mco
+
+====================================================================================
+
+January 2014 
+Part 3 : http://www.youtube.com/watch?v=i5RBHoanv1s
