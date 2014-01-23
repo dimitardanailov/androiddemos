@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+
+    <string name="app_name">VarnaLabDecemberDemo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="simpleButton">Simple button</string>
+	<string name="one">One</string>
+	<string name="two">Two</string>
+	<string name="save">Save</string>
+	<string name="cancel">Cancel</string>
+	
+</resources>
