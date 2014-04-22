@@ -8,6 +8,11 @@ Today will made our first lecture about:
 - Review of Android Manifest
 - UI Design Patterns
 
+Resources:
+- <a href="https://www.youtube.com/watch?v=Jl3-lzlzOJI&index=2&list=PLH2J_JZ4HZUt7Z0HH3h7rh_NS-P9EGwsK" target="_blank" title="Google I/O 2013 - Android Design for UI Developers">Google I/O 2013 - Android Design for UI Developers</a>
+- <a href="http://developer.android.com/about/dashboards/index.html" target="_blank" title="Android Dashboard - Android and Google Play ecosystem">Android Dashboard - Android and Google Play ecosystem</a>
+- <a href="http://developer.android.com/training/improving-layouts/optimizing-layout.html" target="_blank" title="Optimizing Layout Hierarchies">Optimizing Layout Hierarchies</a>
+
 Contacts
 =======================
 If you want can join to our public group: 
