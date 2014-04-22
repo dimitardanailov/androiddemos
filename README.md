@@ -12,3 +12,7 @@ Part 2 : http://www.youtube.com/watch?v=Vx4Vq-M1Mco
 
 January 2014 
 Part 3 : http://www.youtube.com/watch?v=i5RBHoanv1s
+
+<a href="https://github.com/dimitardanailov/androiddemos/tree/master/BeehiveAndroid" title="Beehive.bg Android Course">Beehive.bg Android Course</a>
+====================================================================================
+
