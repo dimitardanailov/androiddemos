@@ -36,3 +36,7 @@ If you want to get only Source code for Beehive.bg course:
 
 <code>git clone https://github.com/dimitardanailov/androiddemos/tree/master/BeehiveAndroid</code>
 
+If you want to get only repo updates:
+
+<code>git pull</code>
+
