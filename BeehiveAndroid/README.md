@@ -16,11 +16,15 @@ Resources:
 Lecture 2
 =======================
 Android Course make overview of :
-- Relative Layout
-- Linear Layout
-- Drawable Resources
-- - Gradients
--UI Design Patterns
+<ul>
+<li>Relative Layout</li>
+<li>Linear Layout</li>
+<li>Drawable Resources</li>
+<ul>
+<li>Gradients</li>
+</ul>
+<li>UI Design Patterns</li>
+</ul>
 
 Resources:
 - <a href="http://developer.android.com/reference/android/widget/RelativeLayout.html" target="_blank" title="RelativeLayout">RelativeLayout</a>
