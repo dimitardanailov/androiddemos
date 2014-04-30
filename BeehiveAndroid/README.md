@@ -13,12 +13,26 @@ Resources:
 - <a href="http://developer.android.com/about/dashboards/index.html" target="_blank" title="Android Dashboard - Android and Google Play ecosystem">Android Dashboard - Android and Google Play ecosystem</a>
 - <a href="http://developer.android.com/training/improving-layouts/optimizing-layout.html" target="_blank" title="Optimizing Layout Hierarchies">Optimizing Layout Hierarchies</a>
 
+Lecture 2
+=======================
+Android Course make overview of :
+- Relative Layout
+- Linear Layout
+- Drawable Resources
+- - Gradients
+-UI Design Patterns
+
+Resources:
+- <a href="http://developer.android.com/reference/android/widget/RelativeLayout.html" target="_blank" title="RelativeLayout">RelativeLayout</a>
+- <a href="http://developer.android.com/reference/android/widget/LinearLayout.html" target="_blank" title="LinearLayout">LinearLayout</a>
+- <a href="http://developer.android.com/guide/topics/resources/drawable-resource.html" target="_blank" title="Drawable Resources">Drawable Resources</a>
+
 Contacts
 =======================
 If you want can join to our public group: 
 https://www.facebook.com/groups/beehiveandroid/
 
-If you want to ask question or watch  our presentations live, please join into New Coworking Space "Beehive" Varna .
+If you want to ask question or watch our presentations live, please join into New Coworking Space "Beehive" Varna .
 
 For information about Beehive please check our facebook page: https://www.facebook.com/beehive.varna or our website: http://beehive.bg/
 
