@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BeehiveAndroid</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+	<string name="beehive_android">Beehive Android</string>
+	
+	<string name="cancel">Cancel</string>
+	<string name="ok">OK</string>
+    
+	<string name="name">Name</string>
+	<string name="email">Email</string>
+	
+	<string name="placeholder_name">Please enter your name:</string>
+	<string name="placeholder_email">Please enter your email:</string>
+	
+	<string name="one">One</string>
+	<string name="two">Two</string>
+	<string name="five">Five</string>
+</resources>
