@@ -57,9 +57,9 @@ For information about Beehive please check our facebook page: https://www.facebo
 Youtube Videos
 =======================
 
-- https://www.youtube.com/watch?v=nz9-Eralduw
-- https://www.youtube.com/watch?v=W0-dJr6oBs0
-- https://www.youtube.com/watch?v=OGjVt1BBTnM
+- <a href="https://www.youtube.com/watch?v=nz9-Eralduw" target="_blank" title="Android Course (22 04 2014) - Design Patterns Part 1">Android Course (22 04 2014) - Design Patterns Part 1</a>
+- <a href="https://www.youtube.com/watch?v=W0-dJr6oBs0" target="_blank" title="Android Course (29 04 2014) - Design Patterns Part 2">Android Course (29 04 2014) - Design Patterns Part 2</a>
+- <a href="https://www.youtube.com/watch?v=OGjVt1BBTnM" target="_blank" title="Android Course (20 05 2014) - Android manifest and Activities">Android Course (20 05 2014) - Android manifest and Activities</a>
 
 Github Commands
 =======================
