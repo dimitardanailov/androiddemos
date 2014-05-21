@@ -31,6 +31,20 @@ Resources:
 - <a href="http://developer.android.com/reference/android/widget/LinearLayout.html" target="_blank" title="LinearLayout">LinearLayout</a>
 - <a href="http://developer.android.com/guide/topics/resources/drawable-resource.html" target="_blank" title="Drawable Resources">Drawable Resources</a>
 
+Lecture 3
+=======================
+Android Course make overview of :
+<ul>
+<li>Splash Screen</li>
+<li>Android Manifest</li>
+<li>Intent</li>
+</ul>
+
+Resources:
+- <a href="http://developer.android.com/guide/topics/manifest/manifest-intro.html" target="_blank" title="App Manifest">App Manifest</a>
+- <a href="http://www.itcuties.com/android/how-to-create-android-splash-screen/" target="_blank" title="How to create android splash screen">How to create android splash screen</a>
+- <a href="http://developer.android.com/reference/android/content/Intent.html" target="_blank" title="Intent">Intent</a>
+
 Contacts
 =======================
 If you want can join to our public group: 
@@ -44,6 +58,8 @@ Youtube Videos
 =======================
 
 - https://www.youtube.com/watch?v=nz9-Eralduw
+- https://www.youtube.com/watch?v=W0-dJr6oBs0
+- https://www.youtube.com/watch?v=OGjVt1BBTnM
 
 Github Commands
 =======================
