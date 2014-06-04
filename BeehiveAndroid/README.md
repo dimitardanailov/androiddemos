@@ -55,13 +55,13 @@ Android Course make overview of :
 </ul>
 
 Resources:
-- http://www.vogella.com/tutorials/Android/article.html
-- http://www.itcuties.com/
-- http://www.androidhive.info/
-- https://www.google.com/events/io
-- https://www.youtube.com/channel/UC_x5XG1OV2P6uZZ5FSM9Ttw
-- https://www.youtube.com/user/dimityrdanailov
-- http://www.json.org/
+- <a href="http://www.vogella.com/tutorials/Android/article.html" target="_blank" title="Android Development - Tutorials">http://www.vogella.com/tutorials/Android/article.html</a>
+- <a href="http://www.itcuties.com/" target="_blank" title="Video tutorials for programmers">http://www.itcuties.com</a>
+- <a href="http://www.androidhive.info" target="_blank" title="AndroidHive | Tutorials, Games, Apps, Tips">http://www.androidhive.info</a>
+- <a href="https://www.google.com/events/io" target="_blank" title="Google I/O">https://www.google.com/events/io</a>
+- <a href="https://www.youtube.com/channel/UC_x5XG1OV2P6uZZ5FSM9Ttw" target="_blank" title="Google Developers">https://www.youtube.com/channel/UC_x5XG1OV2P6uZZ5FSM9Ttw</a>
+- <a href="https://www.youtube.com/user/dimityrdanailov" target="_blank" title="Dimitar Danailov Videos">https://www.youtube.com/user/dimityrdanailov</a>
+- <a href="http://www.json.org" target="_blank" title="JSON">http://www.json.org</a>
 
 Contacts
 =======================
