@@ -47,14 +47,21 @@ Resources:
 
 Lecture 4
 =======================
+Android Course make overview of :
+<ul>
+<li>How to pass data between Intents</li>
+<li>Overview how to get REST Api JSON Data from the server</li>
+<li>Resources how to continue to learn Android and Java.</li>
+</ul>
 
-http://www.vogella.com/tutorials/Android/article.html
-http://www.itcuties.com/
-http://www.androidhive.info/
-https://www.google.com/events/io
-https://www.youtube.com/channel/UC_x5XG1OV2P6uZZ5FSM9Ttw
-https://www.youtube.com/user/dimityrdanailov
-http://www.json.org/
+Resources:
+- http://www.vogella.com/tutorials/Android/article.html
+- http://www.itcuties.com/
+- http://www.androidhive.info/
+- https://www.google.com/events/io
+- https://www.youtube.com/channel/UC_x5XG1OV2P6uZZ5FSM9Ttw
+- https://www.youtube.com/user/dimityrdanailov
+- http://www.json.org/
 
 Contacts
 =======================
@@ -71,6 +78,7 @@ Youtube Videos
 - <a href="https://www.youtube.com/watch?v=nz9-Eralduw" target="_blank" title="Android Course (22 04 2014) - Design Patterns Part 1">Android Course (22 04 2014) - Design Patterns Part 1</a>
 - <a href="https://www.youtube.com/watch?v=W0-dJr6oBs0" target="_blank" title="Android Course (29 04 2014) - Design Patterns Part 2">Android Course (29 04 2014) - Design Patterns Part 2</a>
 - <a href="https://www.youtube.com/watch?v=OGjVt1BBTnM" target="_blank" title="Android Course (20 05 2014) - Android manifest and Activities">Android Course (20 05 2014) - Android manifest and Activities</a>
+- <a href="https://www.youtube.com/watch?v=wlYXFaM6eP8" target="_blank" title="Android Course (03 06 2014) - Intents and REST APIs">Android Course (03 06 2014) - Intents and REST APIs </a>
 
 Github Commands
 =======================
