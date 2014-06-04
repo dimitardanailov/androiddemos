@@ -45,6 +45,17 @@ Resources:
 - <a href="http://www.itcuties.com/android/how-to-create-android-splash-screen/" target="_blank" title="How to create android splash screen">How to create android splash screen</a>
 - <a href="http://developer.android.com/reference/android/content/Intent.html" target="_blank" title="Intent">Intent</a>
 
+Lecture 4
+=======================
+
+http://www.vogella.com/tutorials/Android/article.html
+http://www.itcuties.com/
+http://www.androidhive.info/
+https://www.google.com/events/io
+https://www.youtube.com/channel/UC_x5XG1OV2P6uZZ5FSM9Ttw
+https://www.youtube.com/user/dimityrdanailov
+http://www.json.org/
+
 Contacts
 =======================
 If you want can join to our public group: 
