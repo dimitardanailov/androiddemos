@@ -17,7 +17,7 @@ public class VarnaLabGeoLocations extends Activity {
 		// check if GPS enabled
 		GPSTracker gpsTracker = new GPSTracker(this);
 		
-		if (gpsTracker.canGetLocation())
+		if (gpsTracker.getIsGPSTrackingEnabled())
 		{
 			String stringLatitude = String.valueOf(gpsTracker.latitude);
 			textview = (TextView)findViewById(R.id.fieldLatitude);
